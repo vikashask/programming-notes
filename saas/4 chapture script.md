@@ -11,3 +11,17 @@ p{
    font-size:$fontSize;
 }
 ```
+
+## Operations
+### Number Operations
+```
+$size: 25px;
+
+h2{
+   font-size: $size + 5;
+}
+
+h3{
+   font-size: $size / 5;
+}
+```
