@@ -25,3 +25,18 @@ h3{
    font-size: $size / 5;
 }
 ```
+### Color Operations
+```
+$color1: #333399;
+$color2: #CC3399;
+
+p{
+   color: $color1 + $color2;
+}
+```
+### String Operations
+```
+p {
+   font-size: 5px + 10px;
+}
+```
