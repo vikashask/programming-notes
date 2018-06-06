@@ -40,3 +40,17 @@ p {
    font-size: 5px + 10px;
 }
 ```
+### Boolean Operations
+```
+$age:20;
+.bool {
+   @if ($age > 10 and $age < 25) {
+      color: green;
+   }
+}
+
+output
+.bool {
+   color: green;
+}
+```
