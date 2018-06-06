@@ -78,3 +78,21 @@ p:after {
    content: "I have #{8 + 2} books on SASS!";
 }
 ```
+## & in SassScript
+```
+a {
+   font-size: 20px;
+   &:hover { background-color: yellow;}
+}
+
+output
+
+a {
+   font-size: 20px;
+}
+a:hover {
+   background-color: yellow;
+}
+```
+
+
