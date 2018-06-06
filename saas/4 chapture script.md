@@ -94,5 +94,14 @@ a:hover {
    background-color: yellow;
 }
 ```
+### Variable Defaults
+```
+$myval1: null;
+$myval1: "Sass Developed by Natalie Weizenbaum and Chris Eppstein" !default;
+
+p:after {
+   content: $myval1;
+}
+```
 
 
