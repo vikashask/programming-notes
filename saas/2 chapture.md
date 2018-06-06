@@ -96,3 +96,31 @@ style.css
    font-variant: small-caps;
 }
 ```
+
+## Sass - Placeholder Selectors
+
+```
+ <body>
+      <h1>First Heading</h1>
+      <p class = "frst_para">It is a CSS pre-processor which helps to reduce repetition with CSS and save the time. </p>
+      <h1>Second Heading</h1>
+      <p class = "sec_para">It was initially designed by Hampton Catlin and developed by Natalie Weizenbaum in 2006.</p>
+   </body>
+
+   .frst_para {
+   color: green;
+}
+.sec_para {
+   @extend .frst_para;
+   font-size:20px;
+}
+
+output
+
+.frst_para, .sec_para {
+   color: green;
+}
+.sec_para {
+   font-size: 20px;
+}
+```
