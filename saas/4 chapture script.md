@@ -68,3 +68,13 @@ p {
 }
 
 ```
+## Functions
+
+## Interpolation
+
+syntax #{$name}
+```
+p:after {
+   content: "I have #{8 + 2} books on SASS!";
+}
+```
