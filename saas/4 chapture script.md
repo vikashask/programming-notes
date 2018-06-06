@@ -54,3 +54,17 @@ output
    color: green;
 }
 ```
+## Parantheses
+```
+p {
+   font-size:  5px + (7px * 2);
+   color:#ff0000;
+}
+
+output
+p {
+   font-size: 19px;
+   color: #ff0000;
+}
+
+```
