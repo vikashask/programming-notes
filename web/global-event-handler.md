@@ -13,7 +13,7 @@
 ### onload
 ### onloadend  
     img.onloadend = funcRef;
-    ```
+    
     // 'loadstart' fires first, then 'load', then 'loadend'
     image.addEventListener('load', function(e) {
     console.log('Image loaded');
@@ -26,7 +26,7 @@
     image.addEventListener('loadend', function(e) {
     console.log('Image load finished');
     });
-    ```
+    
 ### onloadstart
 ### onmousedown
 ### onmousemove
