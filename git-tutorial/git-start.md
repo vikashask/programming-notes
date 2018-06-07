@@ -9,3 +9,8 @@
   
 ## Create a new-branch
 git checkout -b new-feature
+
+## Update, add, commit, and push changes
+git status
+git add <some-file>
+git commit
