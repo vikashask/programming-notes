@@ -8,12 +8,12 @@
   git reset --hard origin/master
   
 ## Create a new-branch
-git checkout -b new-feature
+  git checkout -b new-feature
 
 ## Update, add, commit, and push changes
-git status
-git add <some-file>
-git commit
+  git status
+  git add <some-file>
+  git commit
 
 ## Push feature branch to remote
-git push -u origin new-feature
+  git push -u origin new-feature
