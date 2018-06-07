@@ -17,3 +17,7 @@
 
 ## Push feature branch to remote
   git push -u origin new-feature
+This process often results in a merge commit
+
+## Delete branch
+  git branch -d marys-feature
