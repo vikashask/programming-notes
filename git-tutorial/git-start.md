@@ -14,3 +14,6 @@ git checkout -b new-feature
 git status
 git add <some-file>
 git commit
+
+## Push feature branch to remote
+git push -u origin new-feature
