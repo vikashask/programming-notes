@@ -20,10 +20,10 @@
 This process often results in a merge commit
 
 ## Once Bill is ready to accept the pull request,someone needs to merge the feature into the stable project
-  git checkout master
-  git pull
-  git pull origin marys-feature
-  git push
+  git checkout master  
+  git pull  
+  git pull origin marys-feature  
+  git push  
   This process often results in a merge commit
 
 ## Delete branch
