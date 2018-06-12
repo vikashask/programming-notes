@@ -26,5 +26,8 @@ This process often results in a merge commit
   git push  
   This process often results in a merge commit
 
+# push code and delete branch from local and remote   
+  git push --delete origin login
+
 ## Delete branch
   git branch -d marys-feature
