@@ -10,7 +10,7 @@
     git merge develop
     git branch -d feature_branch 
     
-    delete branch from local and remote. go to that branch 
+### Delete branch from local and remote. go to that branch then
     git push --delete origin login
     
   ```
