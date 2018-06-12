@@ -24,3 +24,14 @@
   4.When a feature is complete it is merged into the develop branch
   
   5.When the release branch is done it is merged into develop and master
+  
+  
+  ```
+  Rollback Code if you commited and push
+  git reset --hard commit-id
+  
+  Rollback if you commited but not push
+  git reset HEAD~ 
+  git add -A
+  git commit -m"message"
+  ```
