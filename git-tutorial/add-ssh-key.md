@@ -22,6 +22,7 @@ ssh-add ~/.ssh/id_rsa
 ```
 
 3.Add the SSH key to your GitHub account.
+```
 a.Copy the SSH key to your clipboard.
 clip < ~/.ssh/id_rsa.pub
 Copies the contents of the id_rsa.pub file to your clipboard
@@ -31,4 +32,5 @@ d.Click New SSH key or Add SSH key.
 e.In the "Title" field, add a descriptive label for the new key. For example, if you're using a personal window, you might call this key "Personal window".
 f.Paste your key into the "Key" field.
 g.Click Add SSH key.
-
+h.If prompted, confirm your GitHub password.
+```
