@@ -22,5 +22,5 @@ ssh-add ~/.ssh/id_rsa
 a.Copy the SSH key to your clipboard.
 clip < ~/.ssh/id_rsa.pub
 Copies the contents of the id_rsa.pub file to your clipboard
-b.
+b.In the upper-right corner of any page, click your profile photo, then click Settings.
 c.
