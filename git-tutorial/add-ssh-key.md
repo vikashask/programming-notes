@@ -34,3 +34,11 @@ f.Paste your key into the "Key" field.
 g.Click Add SSH key.
 h.If prompted, confirm your GitHub password.
 ```
+
+4. Check that you are connecting to the correct server
+To make sure you are connecting to the right domain, you can enter the following command:
+ssh -vT git@github.com
+
+Always use the "git" user
+ssh -T GITHUB-USERNAME@github.com
+Permission denied (publickey).
