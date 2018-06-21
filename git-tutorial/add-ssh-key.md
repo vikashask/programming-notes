@@ -27,3 +27,6 @@ clip < ~/.ssh/id_rsa.pub
 Copies the contents of the id_rsa.pub file to your clipboard
 b.In the upper-right corner of any page, click your profile photo, then click Settings.
 c.In the user settings sidebar, click SSH and GPG keys.
+d.Click New SSH key or Add SSH key.
+e.
+f.
