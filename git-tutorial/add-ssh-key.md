@@ -29,4 +29,6 @@ b.In the upper-right corner of any page, click your profile photo, then click Se
 c.In the user settings sidebar, click SSH and GPG keys.
 d.Click New SSH key or Add SSH key.
 e.In the "Title" field, add a descriptive label for the new key. For example, if you're using a personal window, you might call this key "Personal window".
-f.
+f.Paste your key into the "Key" field.
+g.Click Add SSH key.
+
