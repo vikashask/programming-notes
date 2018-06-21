@@ -19,3 +19,8 @@ Agent pid 55211
 ssh-add ~/.ssh/id_rsa
 
 3.Add the SSH key to your GitHub account.
+a.Copy the SSH key to your clipboard.
+clip < ~/.ssh/id_rsa.pub
+Copies the contents of the id_rsa.pub file to your clipboard
+b.
+c.
