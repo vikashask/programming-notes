@@ -1,13 +1,14 @@
 ## Push a new local branch to a remote Git repository and track it too
-Create a new branch:
-git checkout -b feature_branch_name
-Edit, add and commit your files.
-Push your branch to the remote repository:
-git push -u origin feature_branch_name
+  Create a new branch:
+  git checkout -b feature_branch_name
+  Edit, add and commit your files.
+  Push your branch to the remote repository:
+  git push -u origin feature_branch_name
 
 ## when more than 1 person working so you have to do this
   git pull --rebase origin master
-  notes : --rebase option tells Git to move all of user commits to the tip of the master branch after synchronising it with the changes from the central repository,
+  notes : --rebase option tells Git to move all of user commits to the tip of themaster branch after synchronising 
+  it with the changes from the  central repository,
   
 ## Start with the master branch
   git checkout master
