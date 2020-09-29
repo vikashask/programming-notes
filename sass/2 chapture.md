@@ -1,56 +1,57 @@
 Indented syntax.
- SCSS (Sassy CSS) = Many CSS and SCSS files use the extension .scss.
- Indented − This is older syntax and sometimes just called as SASS. the extension .sass.
+SCSS (Sassy CSS) = Many CSS and SCSS files use the extension .scss.
+Indented − This is older syntax and sometimes just called as SASS. the extension .sass.
 
 ## indented syntax
+
 Multiline Selectors
- style.scss
+style.scss
 .class1,
 .class2{
-   color:red;
+color:red;
 }
 
 ## Sass - CSS Extensions
-1	Nested Rules
+
+1 Nested Rules
 It is a way of combining multiple CSS rules within one another.
 
-2	Referencing Parent Selectors: &
+2 Referencing Parent Selectors: &
 It is the process of selecting parent selector by using the & character.
 
-3	Nested Properties
+3 Nested Properties
 It allows nesting of properties into other properties which leads to grouping of another related code.
 
-4	Placeholder Selectors
+4 Placeholder Selectors
 Sass supports placeholder selector using class or id selector by making use of @extend directive.
-
 
 ## 1. Nested Rules Example
 
-   ```
- <body>
-      <div class = "container">
-         <h1>My First Heading</h1>
-         <p>It is a CSS pre-processor which helps to reduce repetition with CSS and save the time. </p>
-         <p>It is more stable and powerful CSS extension language.</p>
-         <div class = "box">
-            <h1>My Second Heading</h1>
-            <p>It is initially designed by Hampton Catlin and developed by Natalie Weizenbaum in 2006.</p>
-         </div>
+```
+<body>
+   <div class = "container">
+      <h1>My First Heading</h1>
+      <p>It is a CSS pre-processor which helps to reduce repetition with CSS and save the time. </p>
+      <p>It is more stable and powerful CSS extension language.</p>
+      <div class = "box">
+         <h1>My Second Heading</h1>
+         <p>It is initially designed by Hampton Catlin and developed by Natalie Weizenbaum in 2006.</p>
       </div>
-   </body>
+   </div>
+</body>
 
 .container{
-   h1{
-      font-size: 25px;
-      color:#E45456;
-   }
-   
-   p{
-      font-size: 25px;
-      color:#3C7949;
-   }
+h1{
+   font-size: 25px;
+   color:#E45456;
 }
-   ```
+
+p{
+   font-size: 25px;
+   color:#3C7949;
+}
+}
+```
 
 ## Sass - Referencing Parent Selectors
 
